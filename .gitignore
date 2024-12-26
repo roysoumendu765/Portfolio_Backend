@@ -1,0 +1,54 @@
+# Django-specific files
+my_project_envt_env
+*.sqlite3
+*.db
+db.sqlite3
+local_settings.py
+.DS_Store # macOS
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+
+# Media files
+media/
+public/
+uploads/
+static/
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+
+# Testing files
+.pytest_cache/
+
+# IDE-specific files
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.log
+*.pid
+
+# Build files
+build/
+dist/
+
+# Generated files
+*.egg-info/
+*.egg
+
+# Documentation
+docs/_build/
+
+# Generated files
+*.html
+*.css
+*.js
+*.map
+
+# Celery
+celerybeat-schedule
